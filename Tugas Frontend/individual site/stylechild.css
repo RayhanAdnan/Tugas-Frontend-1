@@ -1,0 +1,62 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color:black;
+    margin: 0px;
+}
+div.main {
+    max-width: 850px;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
+}
+div.header {
+    height: 125px;
+    padding: 44.5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    color: goldenrod;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: goldenrod;
+}
+li a {
+    display: block;
+    border-right: 0.25px groove black;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    float: left;
+}
+#poster {
+    margin: 20px;
+    width: 280px;
+    float:left;
+}
+#deskripsi {
+    width: 480px;
+    margin: 25px;
+    float:left;
+    color: white;
+}
+#deskripsi h2 {
+    width: 480px;
+    margin:0;
+}
+#deskripsi p {
+    width: 480px;
+    text-align: justify;
+}
